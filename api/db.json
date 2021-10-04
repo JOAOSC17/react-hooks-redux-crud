@@ -1,0 +1,16 @@
+{
+    "tutorials":[
+        {
+            "id": 1,
+            "title": "Kit Notebook",
+            "description": "rfemfkemfkef",
+            "published": true
+        },
+        {
+            "id": 2,
+            "title": "blablabla",
+            "description": "fnwefwbbwfb",
+            "published": false
+        }
+    ]
+}
