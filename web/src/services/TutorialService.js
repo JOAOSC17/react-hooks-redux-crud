@@ -1,7 +1,7 @@
 import http from "../http-common";
 
 const getAll = () => {
-  return http.get("/tutorials");
+  return http.get("/tutorials?_sort=id&_order=desc");
 };
 
 const get = id => {
