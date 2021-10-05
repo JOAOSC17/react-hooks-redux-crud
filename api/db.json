@@ -8,20 +8,9 @@
     },
     {
       "id": 2,
-      "title": "blablabla",
+      "title": "blablable",
       "description": "fnwefwbbwfb",
       "published": false
-    },
-    {
-      "title": "dtcybnkmklm",
-      "description": "fvhbnkmkmlmll",
-      "id": 3
-    },
-    {
-      "title": "bleh",
-      "description": "bleh",
-      "published": true,
-      "id": 4
     }
   ]
 }

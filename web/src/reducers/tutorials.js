@@ -3,7 +3,6 @@ import {
     RETRIEVE_TUTORIALS,
     UPDATE_TUTORIAL,
     DELETE_TUTORIAL,
-    DELETE_ALL_TUTORIALS,
   } from "../actions/types";
   
 const initialState = [];
@@ -28,8 +27,6 @@ function tutorialReducer(tutorials = initialState, action){
             });
         case DELETE_TUTORIAL:
             return tutorials.filter(({id})=> id !== payload.id);
-        case DELETE_ALL_TUTORIALS:
-            return [];
         default:
             return tutorials;
     }

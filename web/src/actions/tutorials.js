@@ -3,7 +3,6 @@ import {
     RETRIEVE_TUTORIALS,
     UPDATE_TUTORIAL,
     DELETE_TUTORIAL,
-    DELETE_ALL_TUTORIALS,
   } from "./types";
   
   import TutorialDataService from "../services/TutorialService";
@@ -61,21 +60,6 @@ import {
       });
     } catch (err) {
       console.log(err);
-    }
-  };
-  
-  export const deleteAllTutorials = () => async (dispatch) => {
-    try {
-      const res = await TutorialDataService.removeAll();
-  
-      dispatch({
-        type: DELETE_ALL_TUTORIALS,
-        payload: res.data,
-      });
-  
-      return Promise.resolve(res.data);
-    } catch (err) {
-      return Promise.reject(err);
     }
   };
   
